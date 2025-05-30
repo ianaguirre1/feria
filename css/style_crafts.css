@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family:sans-serif;
+    background-color: gainsboro;
+}
+.header{
+    min-width:100vw ;
+    min-height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.header__list{
+    min-width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+}
+.header__section{
+    padding: 20px 60px;
+}
+.header__links{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    margin-top:300px ;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 50vh;
+    text-align: center;
+}
+.container__text{
+    margin: 50px auto;
+    text-align: center;
+    width: 60%;
+    font-size:x-large;
+}
+.products__price{
+    font-size:x-large;
+    padding: 50px;
+}
+.carriel{
+    margin-top:300px ;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 80vh;
+    text-align: center;
+    align-items: center;
+}
+.container__img{
+    padding: 50px;
+    width: 40%;
+    min-height: 40%;
+    object-fit: cover;
+    border-radius:10% ;
+}
+.hat{
+    margin-top:300px ;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 80vh;
+    text-align: center;
+    align-items: center;
+}
+.ceramic{
+    margin-top:300px ;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 80vh;
+    text-align: center;
+    align-items: center;
+}
+
+.balsam_wood{
+    margin-top:300px ;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 80vh;
+    text-align: center;
+    align-items: center;
+}
+
+.chaquiras{
+    margin-top:300px ;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-height: 80vh;
+    text-align: center;
+    align-items: center;
+}
